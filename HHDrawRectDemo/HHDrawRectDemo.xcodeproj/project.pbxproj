@@ -19,6 +19,8 @@
 		F56AFA391F0102FF00E88F54 /* HHDrawRectVC.m in Sources */ = {isa = PBXBuildFile; fileRef = F56AFA361F0102FF00E88F54 /* HHDrawRectVC.m */; };
 		F56AFA3A1F0102FF00E88F54 /* HHDrawRectView.m in Sources */ = {isa = PBXBuildFile; fileRef = F56AFA381F0102FF00E88F54 /* HHDrawRectView.m */; };
 		F56AFA401F010D7E00E88F54 /* HHDrawAllView.m in Sources */ = {isa = PBXBuildFile; fileRef = F56AFA3F1F010D7E00E88F54 /* HHDrawAllView.m */; };
+		F56AFA4B1F02611D00E88F54 /* HHBezierPathVC.m in Sources */ = {isa = PBXBuildFile; fileRef = F56AFA481F02611D00E88F54 /* HHBezierPathVC.m */; };
+		F56AFA4C1F02611D00E88F54 /* HHBezierPathView.m in Sources */ = {isa = PBXBuildFile; fileRef = F56AFA4A1F02611D00E88F54 /* HHBezierPathView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -55,6 +57,10 @@
 		F56AFA381F0102FF00E88F54 /* HHDrawRectView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HHDrawRectView.m; sourceTree = "<group>"; };
 		F56AFA3E1F010D7E00E88F54 /* HHDrawAllView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HHDrawAllView.h; sourceTree = "<group>"; };
 		F56AFA3F1F010D7E00E88F54 /* HHDrawAllView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HHDrawAllView.m; sourceTree = "<group>"; };
+		F56AFA471F02611D00E88F54 /* HHBezierPathVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HHBezierPathVC.h; sourceTree = "<group>"; };
+		F56AFA481F02611D00E88F54 /* HHBezierPathVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HHBezierPathVC.m; sourceTree = "<group>"; };
+		F56AFA491F02611D00E88F54 /* HHBezierPathView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HHBezierPathView.h; sourceTree = "<group>"; };
+		F56AFA4A1F02611D00E88F54 /* HHBezierPathView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HHBezierPathView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -135,6 +141,10 @@
 				F56AFA2F1F01026700E88F54 /* HHPaintVC.m */,
 				F56AFA301F01026700E88F54 /* HHPaintView.h */,
 				F56AFA311F01026700E88F54 /* HHPaintView.m */,
+				F56AFA471F02611D00E88F54 /* HHBezierPathVC.h */,
+				F56AFA481F02611D00E88F54 /* HHBezierPathVC.m */,
+				F56AFA491F02611D00E88F54 /* HHBezierPathView.h */,
+				F56AFA4A1F02611D00E88F54 /* HHBezierPathView.m */,
 			);
 			path = HHBezierPath;
 			sourceTree = "<group>";
@@ -260,9 +270,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F56AFA4B1F02611D00E88F54 /* HHBezierPathVC.m in Sources */,
 				F523874E1EFD0C30002925FF /* ViewController.m in Sources */,
 				F523874B1EFD0C30002925FF /* AppDelegate.m in Sources */,
 				F56AFA401F010D7E00E88F54 /* HHDrawAllView.m in Sources */,
+				F56AFA4C1F02611D00E88F54 /* HHBezierPathView.m in Sources */,
 				F56AFA3A1F0102FF00E88F54 /* HHDrawRectView.m in Sources */,
 				F56AFA391F0102FF00E88F54 /* HHDrawRectVC.m in Sources */,
 				F56AFA321F01026700E88F54 /* HHPaintVC.m in Sources */,

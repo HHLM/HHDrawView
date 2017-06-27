@@ -8,6 +8,7 @@
 
 #import "ViewController.h"
 #import "HHDrawRectVC.h"
+#import "HHBezierPathVC.h"
 #import "HHPaintVC.h"
 @interface ViewController ()<UITableViewDelegate,UITableViewDataSource>
 @property (nonatomic, strong) UITableView *myTableView;
@@ -20,7 +21,7 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     _titles = @[@"绘制文本",@"绘制线条",@"绘制矩形",@"绘制圆形",@"绘制虚线",@"绘制图片",@"全部"];
-    _titles1 = @[@"涂鸦一下吧"];
+    _titles1 = @[@"涂鸦一下",@"贝塞尔曲线"];
     [self.view addSubview:self.myTableView];
 }
 - (UITableView *)myTableView
@@ -65,9 +66,13 @@
 {
     [tableView deselectRowAtIndexPath:indexPath animated:YES];
     if (indexPath.section == 1) {
-        HHPaintVC *vc = [[HHPaintVC alloc] init];
-        [self.navigationController pushViewController:vc animated:YES];
-        return;
+        if (indexPath.row == 0) {
+            HHPaintVC *vc = [[HHPaintVC alloc] init];
+            [self.navigationController pushViewController:vc animated:YES];
+        }else{
+            HHBezierPathVC *vc = [[HHBezierPathVC alloc] init];
+            [self.navigationController pushViewController:vc animated:YES];
+        }
     }
     else
     {

@@ -35,6 +35,22 @@
     if (!_allView) {
         _allView = [[HHDrawAllView alloc] initWithFrame:self.view.bounds];
         _allView.backgroundColor = [UIColor whiteColor];
+        
+        _allView.layer.borderWidth = 2;
+        _allView.layer.cornerRadius = 5;
+        
+        //设置文本的阴影色彩和透明度。
+        _allView.layer.shadowColor = [UIColor redColor].CGColor;
+        
+        //设置阴影的倾斜角度。
+        _allView.layer.shadowOffset = CGSizeMake(0.9f, 0.9f);
+        _allView.layer.shadowOpacity = 0.5f;
+        
+        CGFloat colors[] = {0.5,0,0.4,1};
+        CGColorSpaceRef ref = CGColorSpaceCreateDeviceRGB();
+        CGColorRef color = CGColorCreate(ref, colors);
+        _allView.layer.borderColor = color;
+        
     }return _allView;
 }
 
