@@ -1,0 +1,481 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F52387481EFD0C30002925FF /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F52387471EFD0C30002925FF /* main.m */; };
+		F523874B1EFD0C30002925FF /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F523874A1EFD0C30002925FF /* AppDelegate.m */; };
+		F523874E1EFD0C30002925FF /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F523874D1EFD0C30002925FF /* ViewController.m */; };
+		F52387511EFD0C30002925FF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F523874F1EFD0C30002925FF /* Main.storyboard */; };
+		F52387531EFD0C30002925FF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F52387521EFD0C30002925FF /* Assets.xcassets */; };
+		F52387561EFD0C30002925FF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F52387541EFD0C30002925FF /* LaunchScreen.storyboard */; };
+		F52387611EFD0C31002925FF /* HHDrawRectDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = F52387601EFD0C31002925FF /* HHDrawRectDemoUITests.m */; };
+		F56AFA321F01026700E88F54 /* HHPaintVC.m in Sources */ = {isa = PBXBuildFile; fileRef = F56AFA2F1F01026700E88F54 /* HHPaintVC.m */; };
+		F56AFA331F01026700E88F54 /* HHPaintView.m in Sources */ = {isa = PBXBuildFile; fileRef = F56AFA311F01026700E88F54 /* HHPaintView.m */; };
+		F56AFA391F0102FF00E88F54 /* HHDrawRectVC.m in Sources */ = {isa = PBXBuildFile; fileRef = F56AFA361F0102FF00E88F54 /* HHDrawRectVC.m */; };
+		F56AFA3A1F0102FF00E88F54 /* HHDrawRectView.m in Sources */ = {isa = PBXBuildFile; fileRef = F56AFA381F0102FF00E88F54 /* HHDrawRectView.m */; };
+		F56AFA401F010D7E00E88F54 /* HHDrawAllView.m in Sources */ = {isa = PBXBuildFile; fileRef = F56AFA3F1F010D7E00E88F54 /* HHDrawAllView.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		F523875D1EFD0C31002925FF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F523873B1EFD0C30002925FF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F52387421EFD0C30002925FF;
+			remoteInfo = HHDrawRectDemo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		F52387431EFD0C30002925FF /* HHDrawRectDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HHDrawRectDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F52387471EFD0C30002925FF /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		F52387491EFD0C30002925FF /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		F523874A1EFD0C30002925FF /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		F523874C1EFD0C30002925FF /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		F523874D1EFD0C30002925FF /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		F52387501EFD0C30002925FF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		F52387521EFD0C30002925FF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F52387551EFD0C30002925FF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		F52387571EFD0C30002925FF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F523875C1EFD0C31002925FF /* HHDrawRectDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HHDrawRectDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F52387601EFD0C31002925FF /* HHDrawRectDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HHDrawRectDemoUITests.m; sourceTree = "<group>"; };
+		F52387621EFD0C31002925FF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F56AFA2E1F01026700E88F54 /* HHPaintVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HHPaintVC.h; sourceTree = "<group>"; };
+		F56AFA2F1F01026700E88F54 /* HHPaintVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HHPaintVC.m; sourceTree = "<group>"; };
+		F56AFA301F01026700E88F54 /* HHPaintView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HHPaintView.h; sourceTree = "<group>"; };
+		F56AFA311F01026700E88F54 /* HHPaintView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HHPaintView.m; sourceTree = "<group>"; };
+		F56AFA351F0102FF00E88F54 /* HHDrawRectVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HHDrawRectVC.h; sourceTree = "<group>"; };
+		F56AFA361F0102FF00E88F54 /* HHDrawRectVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HHDrawRectVC.m; sourceTree = "<group>"; };
+		F56AFA371F0102FF00E88F54 /* HHDrawRectView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HHDrawRectView.h; sourceTree = "<group>"; };
+		F56AFA381F0102FF00E88F54 /* HHDrawRectView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HHDrawRectView.m; sourceTree = "<group>"; };
+		F56AFA3E1F010D7E00E88F54 /* HHDrawAllView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HHDrawAllView.h; sourceTree = "<group>"; };
+		F56AFA3F1F010D7E00E88F54 /* HHDrawAllView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HHDrawAllView.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F52387401EFD0C30002925FF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F52387591EFD0C31002925FF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F523873A1EFD0C30002925FF = {
+			isa = PBXGroup;
+			children = (
+				F52387451EFD0C30002925FF /* HHDrawRectDemo */,
+				F523875F1EFD0C31002925FF /* HHDrawRectDemoUITests */,
+				F52387441EFD0C30002925FF /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F52387441EFD0C30002925FF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F52387431EFD0C30002925FF /* HHDrawRectDemo.app */,
+				F523875C1EFD0C31002925FF /* HHDrawRectDemoUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F52387451EFD0C30002925FF /* HHDrawRectDemo */ = {
+			isa = PBXGroup;
+			children = (
+				F52387491EFD0C30002925FF /* AppDelegate.h */,
+				F523874A1EFD0C30002925FF /* AppDelegate.m */,
+				F523874C1EFD0C30002925FF /* ViewController.h */,
+				F523874D1EFD0C30002925FF /* ViewController.m */,
+				F56AFA341F0102FF00E88F54 /* HHDrawRect */,
+				F56AFA2D1F01026700E88F54 /* HHBezierPath */,
+				F52387461EFD0C30002925FF /* Supporting Files */,
+			);
+			path = HHDrawRectDemo;
+			sourceTree = "<group>";
+		};
+		F52387461EFD0C30002925FF /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				F523874F1EFD0C30002925FF /* Main.storyboard */,
+				F52387521EFD0C30002925FF /* Assets.xcassets */,
+				F52387541EFD0C30002925FF /* LaunchScreen.storyboard */,
+				F52387571EFD0C30002925FF /* Info.plist */,
+				F52387471EFD0C30002925FF /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		F523875F1EFD0C31002925FF /* HHDrawRectDemoUITests */ = {
+			isa = PBXGroup;
+			children = (
+				F52387601EFD0C31002925FF /* HHDrawRectDemoUITests.m */,
+				F52387621EFD0C31002925FF /* Info.plist */,
+			);
+			path = HHDrawRectDemoUITests;
+			sourceTree = "<group>";
+		};
+		F56AFA2D1F01026700E88F54 /* HHBezierPath */ = {
+			isa = PBXGroup;
+			children = (
+				F56AFA2E1F01026700E88F54 /* HHPaintVC.h */,
+				F56AFA2F1F01026700E88F54 /* HHPaintVC.m */,
+				F56AFA301F01026700E88F54 /* HHPaintView.h */,
+				F56AFA311F01026700E88F54 /* HHPaintView.m */,
+			);
+			path = HHBezierPath;
+			sourceTree = "<group>";
+		};
+		F56AFA341F0102FF00E88F54 /* HHDrawRect */ = {
+			isa = PBXGroup;
+			children = (
+				F56AFA351F0102FF00E88F54 /* HHDrawRectVC.h */,
+				F56AFA361F0102FF00E88F54 /* HHDrawRectVC.m */,
+				F56AFA371F0102FF00E88F54 /* HHDrawRectView.h */,
+				F56AFA381F0102FF00E88F54 /* HHDrawRectView.m */,
+				F56AFA3E1F010D7E00E88F54 /* HHDrawAllView.h */,
+				F56AFA3F1F010D7E00E88F54 /* HHDrawAllView.m */,
+			);
+			path = HHDrawRect;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F52387421EFD0C30002925FF /* HHDrawRectDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F52387651EFD0C31002925FF /* Build configuration list for PBXNativeTarget "HHDrawRectDemo" */;
+			buildPhases = (
+				F523873F1EFD0C30002925FF /* Sources */,
+				F52387401EFD0C30002925FF /* Frameworks */,
+				F52387411EFD0C30002925FF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = HHDrawRectDemo;
+			productName = HHDrawRectDemo;
+			productReference = F52387431EFD0C30002925FF /* HHDrawRectDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		F523875B1EFD0C31002925FF /* HHDrawRectDemoUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F52387681EFD0C31002925FF /* Build configuration list for PBXNativeTarget "HHDrawRectDemoUITests" */;
+			buildPhases = (
+				F52387581EFD0C31002925FF /* Sources */,
+				F52387591EFD0C31002925FF /* Frameworks */,
+				F523875A1EFD0C31002925FF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F523875E1EFD0C31002925FF /* PBXTargetDependency */,
+			);
+			name = HHDrawRectDemoUITests;
+			productName = HHDrawRectDemoUITests;
+			productReference = F523875C1EFD0C31002925FF /* HHDrawRectDemoUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F523873B1EFD0C30002925FF /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = HHLM;
+				TargetAttributes = {
+					F52387421EFD0C30002925FF = {
+						CreatedOnToolsVersion = 8.3.2;
+						DevelopmentTeam = YM2MZ34492;
+						ProvisioningStyle = Automatic;
+						SystemCapabilities = {
+							com.apple.BackgroundModes = {
+								enabled = 0;
+							};
+						};
+					};
+					F523875B1EFD0C31002925FF = {
+						CreatedOnToolsVersion = 8.3.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = F52387421EFD0C30002925FF;
+					};
+				};
+			};
+			buildConfigurationList = F523873E1EFD0C30002925FF /* Build configuration list for PBXProject "HHDrawRectDemo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F523873A1EFD0C30002925FF;
+			productRefGroup = F52387441EFD0C30002925FF /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F52387421EFD0C30002925FF /* HHDrawRectDemo */,
+				F523875B1EFD0C31002925FF /* HHDrawRectDemoUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F52387411EFD0C30002925FF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F52387561EFD0C30002925FF /* LaunchScreen.storyboard in Resources */,
+				F52387531EFD0C30002925FF /* Assets.xcassets in Resources */,
+				F52387511EFD0C30002925FF /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F523875A1EFD0C31002925FF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F523873F1EFD0C30002925FF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F523874E1EFD0C30002925FF /* ViewController.m in Sources */,
+				F523874B1EFD0C30002925FF /* AppDelegate.m in Sources */,
+				F56AFA401F010D7E00E88F54 /* HHDrawAllView.m in Sources */,
+				F56AFA3A1F0102FF00E88F54 /* HHDrawRectView.m in Sources */,
+				F56AFA391F0102FF00E88F54 /* HHDrawRectVC.m in Sources */,
+				F56AFA321F01026700E88F54 /* HHPaintVC.m in Sources */,
+				F56AFA331F01026700E88F54 /* HHPaintView.m in Sources */,
+				F52387481EFD0C30002925FF /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F52387581EFD0C31002925FF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F52387611EFD0C31002925FF /* HHDrawRectDemoUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		F523875E1EFD0C31002925FF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F52387421EFD0C30002925FF /* HHDrawRectDemo */;
+			targetProxy = F523875D1EFD0C31002925FF /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		F523874F1EFD0C30002925FF /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F52387501EFD0C30002925FF /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		F52387541EFD0C30002925FF /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F52387551EFD0C30002925FF /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F52387631EFD0C31002925FF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		F52387641EFD0C31002925FF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F52387661EFD0C31002925FF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = YM2MZ34492;
+				INFOPLIST_FILE = HHDrawRectDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.HHL.HHDrawRectDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		F52387671EFD0C31002925FF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = YM2MZ34492;
+				INFOPLIST_FILE = HHDrawRectDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.HHL.HHDrawRectDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		F52387691EFD0C31002925FF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = HHDrawRectDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.HHL.HHDrawRectDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = HHDrawRectDemo;
+			};
+			name = Debug;
+		};
+		F523876A1EFD0C31002925FF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = HHDrawRectDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.HHL.HHDrawRectDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = HHDrawRectDemo;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F523873E1EFD0C30002925FF /* Build configuration list for PBXProject "HHDrawRectDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F52387631EFD0C31002925FF /* Debug */,
+				F52387641EFD0C31002925FF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F52387651EFD0C31002925FF /* Build configuration list for PBXNativeTarget "HHDrawRectDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F52387661EFD0C31002925FF /* Debug */,
+				F52387671EFD0C31002925FF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F52387681EFD0C31002925FF /* Build configuration list for PBXNativeTarget "HHDrawRectDemoUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F52387691EFD0C31002925FF /* Debug */,
+				F523876A1EFD0C31002925FF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F523873B1EFD0C30002925FF /* Project object */;
+}
