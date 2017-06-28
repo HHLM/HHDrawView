@@ -21,6 +21,8 @@
 		F56AFA401F010D7E00E88F54 /* HHDrawAllView.m in Sources */ = {isa = PBXBuildFile; fileRef = F56AFA3F1F010D7E00E88F54 /* HHDrawAllView.m */; };
 		F56AFA4B1F02611D00E88F54 /* HHBezierPathVC.m in Sources */ = {isa = PBXBuildFile; fileRef = F56AFA481F02611D00E88F54 /* HHBezierPathVC.m */; };
 		F56AFA4C1F02611D00E88F54 /* HHBezierPathView.m in Sources */ = {isa = PBXBuildFile; fileRef = F56AFA4A1F02611D00E88F54 /* HHBezierPathView.m */; };
+		F56AFABC1F039A3400E88F54 /* HHClipRoundViewVC.m in Sources */ = {isa = PBXBuildFile; fileRef = F56AFAB91F039A3400E88F54 /* HHClipRoundViewVC.m */; };
+		F56AFABD1F039A3400E88F54 /* HHClipRoundView.m in Sources */ = {isa = PBXBuildFile; fileRef = F56AFABB1F039A3400E88F54 /* HHClipRoundView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -61,6 +63,10 @@
 		F56AFA481F02611D00E88F54 /* HHBezierPathVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HHBezierPathVC.m; sourceTree = "<group>"; };
 		F56AFA491F02611D00E88F54 /* HHBezierPathView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HHBezierPathView.h; sourceTree = "<group>"; };
 		F56AFA4A1F02611D00E88F54 /* HHBezierPathView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HHBezierPathView.m; sourceTree = "<group>"; };
+		F56AFAB81F039A3400E88F54 /* HHClipRoundViewVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HHClipRoundViewVC.h; sourceTree = "<group>"; };
+		F56AFAB91F039A3400E88F54 /* HHClipRoundViewVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HHClipRoundViewVC.m; sourceTree = "<group>"; };
+		F56AFABA1F039A3400E88F54 /* HHClipRoundView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HHClipRoundView.h; sourceTree = "<group>"; };
+		F56AFABB1F039A3400E88F54 /* HHClipRoundView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HHClipRoundView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -158,6 +164,10 @@
 				F56AFA381F0102FF00E88F54 /* HHDrawRectView.m */,
 				F56AFA3E1F010D7E00E88F54 /* HHDrawAllView.h */,
 				F56AFA3F1F010D7E00E88F54 /* HHDrawAllView.m */,
+				F56AFAB81F039A3400E88F54 /* HHClipRoundViewVC.h */,
+				F56AFAB91F039A3400E88F54 /* HHClipRoundViewVC.m */,
+				F56AFABA1F039A3400E88F54 /* HHClipRoundView.h */,
+				F56AFABB1F039A3400E88F54 /* HHClipRoundView.m */,
 			);
 			path = HHDrawRect;
 			sourceTree = "<group>";
@@ -277,9 +287,11 @@
 				F56AFA4C1F02611D00E88F54 /* HHBezierPathView.m in Sources */,
 				F56AFA3A1F0102FF00E88F54 /* HHDrawRectView.m in Sources */,
 				F56AFA391F0102FF00E88F54 /* HHDrawRectVC.m in Sources */,
+				F56AFABC1F039A3400E88F54 /* HHClipRoundViewVC.m in Sources */,
 				F56AFA321F01026700E88F54 /* HHPaintVC.m in Sources */,
 				F56AFA331F01026700E88F54 /* HHPaintView.m in Sources */,
 				F52387481EFD0C30002925FF /* main.m in Sources */,
+				F56AFABD1F039A3400E88F54 /* HHClipRoundView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

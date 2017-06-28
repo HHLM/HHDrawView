@@ -10,6 +10,7 @@
 #import "HHDrawRectVC.h"
 #import "HHBezierPathVC.h"
 #import "HHPaintVC.h"
+#import "HHClipRoundViewVC.h"
 @interface ViewController ()<UITableViewDelegate,UITableViewDataSource>
 @property (nonatomic, strong) UITableView *myTableView;
 @property (nonatomic, strong) NSArray *titles;
@@ -21,7 +22,7 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     _titles = @[@"绘制文本",@"绘制线条",@"绘制矩形",@"绘制圆形",@"绘制虚线",@"绘制图片",@"全部"];
-    _titles1 = @[@"涂鸦一下",@"贝塞尔曲线"];
+    _titles1 = @[@"涂鸦一下",@"贝塞尔曲线",@"裁剪圆形图片"];
     [self.view addSubview:self.myTableView];
 }
 - (UITableView *)myTableView
@@ -36,6 +37,12 @@
 }
 - (NSInteger)numberOfSectionsInTableView:(UITableView *)tableView {
     return 2;
+}
+- (CGFloat)tableView:(UITableView *)tableView heightForHeaderInSection:(NSInteger)section {
+    return 35;
+}
+- (CGFloat)tableView:(UITableView *)tableView heightForFooterInSection:(NSInteger)section {
+    return 0.1;
 }
 - (NSString *)tableView:(UITableView *)tableView titleForHeaderInSection:(NSInteger)section {
     return section?@"贝塞尔曲线UIBezierPath":@"UIGraphics画线";
@@ -69,8 +76,11 @@
         if (indexPath.row == 0) {
             HHPaintVC *vc = [[HHPaintVC alloc] init];
             [self.navigationController pushViewController:vc animated:YES];
-        }else{
+        }else if (indexPath.row == 1) {
             HHBezierPathVC *vc = [[HHBezierPathVC alloc] init];
+            [self.navigationController pushViewController:vc animated:YES];
+        }else{
+            HHClipRoundViewVC *vc = [[HHClipRoundViewVC alloc] init];
             [self.navigationController pushViewController:vc animated:YES];
         }
     }
